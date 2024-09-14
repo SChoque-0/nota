@@ -1,0 +1,38 @@
+#include <cstdlib>
+#include <iostream>
+
+int main ()
+int faltas, aulas;
+float  NP1, NP2,PIM, media; 
+printf("Digite a NP1 \n");
+scanf("%f",&NP1);
+printf("Digite a NP2 \n");
+scanf("%f",&NP2);
+printf("Digite a PIM \n");
+scanf("%f",&PIM);
+printf("Digite aulas:");
+scanf("%d", &AULAS);
+printf("Digite faltas:");
+scanf("%d", &faltas);
+if(faltas>(aulas/4)) {
+                     printf("Aluno reprovado por falta");
+                     }{else{
+
+media = "NP1+NP2+PIM/3;
+printf("media:%.2f\n", media);
+
+if (MEDIA>=7){
+              printf("Aluno arpovado.\n");
+              }else{
+                    printf("Aluno de exame.\n");
+                     scanf("%f", &exame);
+                     exame = (media+exame)/2;{
+                           if(exame>=5){
+                                        printf ("Aluno aprovado.\n");
+                                        } else{
+                                               printf ("Aluno reprovado.\n);
+                                               }
+                                               }
+                                               }
+                                               }
+                                               }
